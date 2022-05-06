@@ -1,0 +1,15 @@
+{
+	"name": "NLW",
+	"dockerComposeFile": [
+		"./docker-compose.yml"
+	],
+	"service": "nodejs",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"settings": {
+	    "[prisma]": {
+		"editor.formatOnSave": true
+	    }
+	}
+}
+
